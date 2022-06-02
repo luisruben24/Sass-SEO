@@ -1,0 +1,23 @@
+/*LOS MIXIN PUEDEN SER CON PARAMETROS O SIN PARAMETROS*/
+/*MIXIN SIN PARAMETROS*/
+
+@mixin  parrafos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}
+
+/* MIXIN CON PARAMETROS*/
+
+@mixin parrafoConParametros($size,$alineacion) {
+    font-size: $size;
+    text-align: $alineacion
+}
+
+.parrafosConHambre {
+    font-size: 50px;
+    text-align: right; }

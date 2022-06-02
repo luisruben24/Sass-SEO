@@ -1,0 +1,10 @@
+/*Condicionales*/
+
+$vista: escritorio;
+
+@if ($vista == escritorio) {
+    body {
+        background-color: rgb(250, 247, 247);
+    }
+
+}

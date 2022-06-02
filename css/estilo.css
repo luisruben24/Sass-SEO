@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto+Slab:wght@200;300;400&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/* COLOR */
+body {
+  font-family: 'Roboto Slab', serif; }
+
+h1 {
+  background-color: #712a49;
+  text-transform: uppercase;
+  color: #e4dcdc;
+  text-align: center;
+  font-size: 5rem;
+  border: 4px #f1e8a1 solid; }
+
+footer {
+  color: #9C6459;
+  font-weight: bold;
+  display: flex;
+  justify-content: end; }
+
+h3 {
+  color: #9C6459;
+  font-size: 2rem;
+  text-align: center; }
+
+section {
+  color: #9C6459; }
+
+/* TEXTO */
+h2 {
+  font-size: 2rem;
+  text-align: center; }
+
+section {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center; }
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #bb3030;
+  display: inline;
+  font-size: 1rem; }
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center; }
+
+.logo {
+  width: 100px; }
+
+.imagen {
+  width: 600px;
+  text-align: center; }
+
+.bienvenido {
+  background-color: #712a49;
+  text-align: center;
+  color: #e4dcdc; }
+
+.opciones {
+  color: #712a49 solid;
+  display: flex;
+  justify-content: space-evenly;
+  color: #9C6459;
+  font-size: 2.5rem; }
+
+.imagenesMerey {
+  width: 1500px;
+  display: grid;
+  grid-template-columns: 40% 60%; }
+
+.semillaDeMerey {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.botonWhatsapp img {
+  width: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px; }
+
+.textoPrincipal {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold; }
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 4px #f1e8a1 solid; }
+
+.merey {
+  width: 1000px;
+  justify-content: center;
+  text-align: center; }
+
+.carrusel {
+  justify-content: center;
+  text-align: center; }
+
+.colorNavbar {
+  background-color: rgba(238, 232, 232, 0.838); }
+
+.fuentes {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #712a49; }
+
+/* MODAL */
+.colorBoton {
+  background-color: #712a49;
+  color: aliceblue; }
+
+.row {
+  border: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black; }
+
+/*Condicionales*/
+body {
+  background-color: #faf7f7; }
+
+/*BUCLES*/
+h2 {
+  font-size: 1.6rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+/*MAPS*/
+.facebook {
+  color: #4990e1; }
+
+.instagram {
+  color: #3c41ca; }
+
+/*Map-Get*/
+.mereyGourmet {
+  background-color: white;
+  font-size: 30px;
+  height: 150px;
+  width: 150px;
+  text-align: center; }
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+/*LOS MIXIN PUEDEN SER CON PARAMETROS O SIN PARAMETROS*/
+/*MIXIN SIN PARAMETROS*/
+.parrafosConEstilo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1rem;
+  text-align: left; }
+
+/* MIXIN CON PARAMETROS*/
+.parrafosConHambre {
+  font-size: 50px;
+  text-align: right; }
+
+.facebook {
+  text-align: center; }
+
+.intagram {
+  text-align: center; }
