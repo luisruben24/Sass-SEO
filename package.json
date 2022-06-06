@@ -296,5 +296,13 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisruben24/Sass-SEO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luisruben24/Sass-SEO/issues"
+  },
+  "homepage": "https://github.com/luisruben24/Sass-SEO#readme",
   "description": ""
 }
