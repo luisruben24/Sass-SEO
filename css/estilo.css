@@ -18,7 +18,8 @@ h1 {
 footer {
   color: #9C6459;
   font-weight: bold;
-  display: flex; }
+  display: flex;
+  text-align: left; }
 
 h3 {
   color: #9C6459;
