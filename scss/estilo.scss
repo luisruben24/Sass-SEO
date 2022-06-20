@@ -16,7 +16,7 @@ h1 {
   text-transform: uppercase;
   color: rgb(228, 220, 220);
   text-align: center;
-  font-size: 5rem;
+  font-size: 3.5rem;
   border: 4px rgb(241, 232, 161) solid;
 }
 
@@ -24,7 +24,6 @@ footer {
   color: #9C6459;
   font-weight: bold;
   display: flex;
-  justify-content: end;
 }
 
 h3 {
@@ -80,18 +79,11 @@ li {
   color: rgb(228, 220, 220);
 }
 
-.opciones {
-  color: #712a49 solid;
-  display: flex;
-  justify-content: space-evenly;
-  color: #9C6459;
-  font-size: 2.5rem;
-}
-
-.imagenesMerey {
-  width: 1500px;
+.imagenesDeMerey {
+  width: 600px;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 75% 105% 70%;
+  text-align: center;
 }
 
 .semillaDeMerey {
@@ -176,3 +168,42 @@ li {
     text-align: center;
     
 }
+
+/*responsive notas*/
+@media only screen and (max-width: 767px) {
+  h1 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+  }
+  .imagenesDeMerey {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 75% 105% 70%;
+    text-align: center;
+  }
+
+  .imagenesDeMerey {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 970px) {
+  h1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .imagenesDeMerey {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+    text-align: center;
+  }
+}
+

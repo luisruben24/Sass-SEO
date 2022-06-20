@@ -35,15 +35,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item fuentes">
-                        <a class="nav-link fuentes" aria-current="page"
-                            href="./pages/productos.html">Productos</a>
+                        <a class="nav-link fuentes" aria-current="page" href="./pages/productos.html">Productos</a>
                     </li>
                     <li class="nav-item fuentes">
                         <a class="nav-link fuentes" href="./pages/historia.html">Historia</a>
                     </li>
                     <li class="nav-item fuentes">
-                        <a class="nav-link fuentes"
-                            href="./pages/quienes-somos.html">Quiénes Somos</a>
+                        <a class="nav-link fuentes" href="./pages/quienes-somos.html">Quiénes Somos</a>
                     </li>
                     <li class="nav-item fuentes">
                         <a class="nav-link fuentes" href="./pages/contacto.html">Contacto</a>
@@ -106,7 +104,7 @@
 
     </p>
 
-    <section class="carrusel">
+    <section class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -118,13 +116,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="merey" src="img/merey.PNG" class="d-block w-100" alt="Carrusel1">
+                    <img class="merey img-fluid" src="img/merey.PNG" class="d-block w-100" alt="Carrusel1">
                 </div>
                 <div class="carousel-item">
-                    <img class="merey" src="img/carrusel2.PNG" class="d-block w-100" alt="Carrusel2">
+                    <img class="merey img-fluid" src="img/carrusel2.PNG" class="d-block w-100" alt="Carrusel2">
                 </div>
                 <div class="carousel-item">
-                    <img class="merey" src="img/carrusel3.PNG" class="d-block w-100" alt="Carrusel3">
+                    <img class="merey img-fluid" src="img/carrusel3.PNG" class="d-block w-100" alt="Carrusel3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -140,13 +138,6 @@
         </div>
     </section>
 
-    <ul class="opciones">
-        <li>Delivery a todo el país</li>
-        <li>Envíos Internacionales</li>
-        <li>Atención Premiúm</li>
-    </ul>
-
-
     <!-- GRILLA BOOTSTRAP -->
 
     <h2 class="mereyGourmet">Esto opinan nuestros clientes:</h2>
@@ -157,6 +148,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12 mt-2 p-2 border">
 
                 <h3>Azú Pastelería</h2>
+                    <img class="azu img-fluid" src="./img/Azu.jpg" alt="Azu Pasteleria">
                     <p class="lead">Los productos de Merey Gourmet se caracterizan por su alto standard de calidad,
                         nuestros clientes han
                         tenido mucha recepción, nos encanta!</p>
@@ -164,6 +156,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-12 mt-2 p-2 border">
                 <h3>Distribuidora Agro World</h2>
+                    <img class="agroWorld img-fluid" src="./img/agro world.jpg" alt="Agro World">
                     <p class="lead">La aceptación del público que los ha probado es de un 100%, quedaron fascinados con
                         el sabor,
                         olor y tostado. La mayoría de los consumidores que lo han degustado se vuelve adictos y vuelven
@@ -172,6 +165,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-12 mt-2 p-2 border">
                 <h3>St. Honoré</h2>
+                    <img class="stHonore img-fluid" src="./img/St.-Honoré.jpg" alt="St. Honore">
                     <p class="lead">Que mejor manera de consentir a nuestros clientes es con productos de primera
                         calidad, y
                         Merey Gourmet nos ha brindado ese beneficio</p>
@@ -179,6 +173,7 @@
 
             <div class="col-lg-3 col-md-6 col-sm-12 mt-2 p-2 border">
                 <h3>Comercializadora Flor-Mar</h2>
+                    <img class="florMar img-fluid" src="./img/flor mar.jpg" alt="Flor Mar">
                     <p class="lead">Para nosotros ha sido una bendición poder distribuir Merey Gourmet en la Isla de
                         Margarita, ya que su aceptación y receptividad por la alta calidad del producto ha sido
                         sumamente positiva</p>
@@ -187,10 +182,13 @@
 
     </section>
 
-    <div class="imagenesMerey">
+    <div class="imagenesDeMerey">
+
         <img class="img-fluid" src="img/merey natural.PNG" alt="Merey Natural">
 
         <img class="img-fluid" src="img/explosion merey.PNG" alt="Explosión Merey">
+
+        <img class="img-fluid" src="img/merey premium.PNG" alt="Explosión Premiun">
 
     </div>
 
@@ -210,12 +208,23 @@
 </body>
 
 <footer>
-    <p class="instagram"> Instagram </p>
-    <p class="facebook"> Facebook </p>
-
-
-    <p> Sitio Web creado por <strong> Luis Rubén Díaz </strong> </p>
+    <li class="nav-item dropdown">
+        <a class="dropdown-toggle btn btn-dark" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">Redes</a>
+        <ul class="dropdown-menu">
+            <div class="m-2"><a href="https://www.facebook.com/Merey-Gourmet-108644154926230/" target="_blank"><img
+                        src="./img/facebook.jpg" alt="facebook"></a></div>
+            <div class="m-2"><a href="https://www.instagram.com/mereygourmet1/" target="_blank"><img
+                        src="./img/instagram.png" alt="instagram"></a></div>
+            <div class="m-2"><a href="https://api.whatsapp.com/send/?phone=584147953862&text&app_absent=0"
+                    target="_blank"><img src="./img/whatsapp.png" alt="whatsapp"></a></div>
+        </ul>
+    </li>
+    <p class="m-2 colorFoot"> Luis Rubén Díaz 2022® - Todos los derechos reservados</p>
 
 </footer>
+</script>
+
+
 
 </html>
