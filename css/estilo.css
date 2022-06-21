@@ -26,6 +26,11 @@ h3 {
   font-size: 2rem;
   text-align: center; }
 
+h4 {
+  color: #9C6459;
+  font-size: 1.5rem;
+  text-align: center; }
+
 section {
   color: #9C6459; }
 
@@ -51,6 +56,9 @@ li {
   list-style-type: none;
   display: inline-block;
   text-align: center; }
+
+.texto {
+  font-size: 0.9rem; }
 
 .logo {
   width: 100px; }
@@ -92,6 +100,9 @@ li {
   justify-content: center;
   font-size: 1.5rem;
   border: 4px #f1e8a1 solid; }
+
+.aliados {
+  width: 150px; }
 
 .merey {
   width: 1000px;
