@@ -1,4 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto+Slab:wght@200;300;400&family=Roboto:wght@100&display=swap");
+/*Condicionales*/
+body {
+  background-color: #faf7f7; }
+
+/*BUCLES*/
+h2 {
+  font-size: 1.6rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+/*MAPS*/
+.facebook {
+  color: #4990e1; }
+
+.instagram {
+  color: #3c41ca; }
+
+/*EXTEND*/
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+/*LOS MIXIN PUEDEN SER CON PARAMETROS O SIN PARAMETROS*/
+/*MIXIN SIN PARAMETROS*/
+/* MIXIN CON PARAMETROS*/
+.parrafosConParametro {
+  font-size: 50px;
+  text-align: right; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -58,7 +92,9 @@ li {
   text-align: center; }
 
 .texto {
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  margin: auto;
+  text-align: center; }
 
 .logo {
   width: 100px; }
@@ -70,13 +106,14 @@ li {
 .bienvenido {
   background-color: #712a49;
   text-align: center;
-  color: #e4dcdc; }
+  color: #e4dcdc;
+  margin: auto; }
 
 .imagenesDeMerey {
-  width: 600px;
-  display: grid;
-  grid-template-columns: 75% 105% 70%;
-  text-align: center; }
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .semillaDeMerey {
   width: 400px;
@@ -93,13 +130,8 @@ li {
 .textoPrincipal {
   font-size: 1rem;
   color: black;
-  font-weight: bold; }
-
-.contacto {
-  display: flex;
-  justify-content: center;
-  font-size: 1.5rem;
-  border: 4px #f1e8a1 solid; }
+  font-weight: bold;
+  margin: auto; }
 
 .aliados {
   width: 150px; }
@@ -111,7 +143,10 @@ li {
 
 .carrusel {
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .colorNavbar {
   background-color: rgba(238, 232, 232, 0.838); }
@@ -130,76 +165,37 @@ li {
 
 .row {
   border: 2rem;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bold;
   color: black; }
 
-/*Condicionales*/
-body {
-  background-color: #faf7f7; }
-
-/*BUCLES*/
-h2 {
-  font-size: 1.6rem; }
-
-h3 {
-  font-size: 2.4rem; }
-
-/*MAPS*/
-.facebook {
-  color: #4990e1; }
-
-.instagram {
-  color: #3c41ca; }
-
-/*EXTEND*/
-.primerEstilo, .segundoEstilo {
-  font-family: Arial, Helvetica, sans-serif;
+.textoContacto {
+  font-size: 1rem;
   font-weight: bold;
-  text-align: right; }
-
-.segundoEstilo {
-  font-size: 35px; }
-
-/*LOS MIXIN PUEDEN SER CON PARAMETROS O SIN PARAMETROS*/
-/*MIXIN SIN PARAMETROS*/
-/* MIXIN CON PARAMETROS*/
-.parrafosConParametro {
-  font-size: 50px;
-  text-align: right; }
-
-.facebook {
-  text-align: center; }
-
-.intagram {
+  justify-content: center;
   text-align: center; }
 
 /*responsive notas*/
 @media only screen and (max-width: 767px) {
   h1 {
-    width: 95%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 12px; }
-  .imagenesDeMerey {
-    width: 600px;
-    display: grid;
-    grid-template-columns: 75% 105% 70%;
-    text-align: center; }
-  .imagenesDeMerey {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 35% 30%;
-    text-align: center; } }
+    margin-bottom: 12px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 970px) {
   h1 {
-    width: 90%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px; }
-  .imagenesDeMerey {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 35% 30%;
-    text-align: center; } }
+    margin-bottom: 15px; } }
+
+.maps {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.cuestionario {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px; }
